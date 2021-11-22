@@ -5,16 +5,16 @@ server_url:
 
 
 # For your local server
-request: http   # http / https
-domain:         # default: 127.0.0.1
-port: 8081          # default: 80
+request: http       # http / https
+domain: 127.0.0.1   # default: 127.0.0.1
+port: 80            # default: 80
 
 cron_interval: 360       # default: 15  minutes
-show_remote_speed: true # default false
+show_remote_speed: true  # default false
 
-healthcheck_timeout:    # default 5
-healthcheck_connection: # default 100
+healthcheck_timeout: 5     # default 5
+healthcheck_connection: 10 # default 100
 
-speedtest:              # default false
-speed_connection:       # default 5
-speed_timeout:          # default 10
+speedtest: false          # default false
+speed_connection: 5       # default 5
+speed_timeout: 10         # default 10
